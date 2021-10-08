@@ -29,6 +29,11 @@ h1 {
     font-weight: bold;
 }
 
+li {
+    list-style-type: circle;
+    /* add a duck png here */
+}
+
 footer {
     background-color: #FAF0EA;
     padding: 10px;
