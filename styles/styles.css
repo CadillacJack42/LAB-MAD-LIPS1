@@ -33,6 +33,20 @@ li {
     list-style-type: circle;
     /* add a duck png here */
 }
+label {
+    display: block;
+}
+
+.labels-inputs {
+    display: grid;
+    place-items: center;
+    visibility: visible;
+
+}
+
+.mad-lib {
+    visibility:hidden;
+}
 
 footer {
     background-color: #FAF0EA;
