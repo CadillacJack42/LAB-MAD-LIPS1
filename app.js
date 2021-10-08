@@ -20,8 +20,12 @@ const inputs = [input1, input2, input3, input4, input5, input6, input7, input8, 
 // reference needed DOM elements
 
 button.addEventListener('click', () => {
-    for (let i = 0; i < inputs.length; i++) {
-        document.getElementsByClassName('input-' + i).textValue = inputs[i].value;  
+    for (let i = 1; i < inputs.length; i++) {
+        console.log('i=1');
+       for (let j = 0; j < inputs.length; j++){
+           console.log(document.querySelector(`#input-${i}`));
+        document.querySelector(`.input${i}`).textContent = inputs[j].value; 
+       } 
     }
 });
 
